@@ -10,7 +10,7 @@ The main purpose of this tutorial is to show developers how they can easily rece
 
 ## Prerequisites
 
-- IBM Cloud Account
+- IBM Cloud Account and IBM Cloud CLI
 - Slack Account and Workspace
 
 ## Estimated Time

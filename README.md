@@ -110,15 +110,23 @@ if (payload.event && payload.event.type === "message" && payload.event.subtype !
 ## 4. View Received Text
 - Go to you Terminal
 - Login to your IBM Cloud CLI
-- Choose your organization and space by entering ibmcloud target --cf
+- Choose your organization and space by entering
+```
+ibmcloud target --cf
+``` 
 - Go to your Slack Application and send direct message to your bot.
 
 <img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.18.png" alt="drawing" width="1200" height="550"/>
 
-- Go back to your terminal and enter ibmcloud fn activation list.
+- Go back to your terminal and enter the command below
+```
+ibmcloud fn activation list.
+``` 
 - Copy the Activation Id at the top.
-- Enter ibmcloud fn activation get <your copied  activation id>
- 
+- Enter the command below
+```
+ibmcloud fn activation get <your copied  activation id>
+``` 
  <img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.43.png" alt="drawing" width="1200" height="550"/>
  
 - You will see the text in the result section of the response.

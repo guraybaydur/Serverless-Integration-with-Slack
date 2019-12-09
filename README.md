@@ -20,6 +20,10 @@ The main purpose of this tutorial is to show developers how they can easily rece
 
 ## 1. Slack Sign In
 - Go to api.slack.com to login to your account.
+
+<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.28.52.png" alt="drawing" width="1200" height="550"/>
+
+
 - From top right corner, Click Go To Slack.
 - You will be directed to Sign in to your workspace page. Enter your workspace url here and hit Enter.
 - Login to your account.
@@ -87,10 +91,6 @@ if (payload.event && payload.event.type === "message" && payload.event.subtype !
 - Copy the Activation Id at the top.
 - Enter ibmcloud fn activation get <your copied  activation id>
 - You will see the text in the result section of the response.
-
-
-
-<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.19.png" alt="drawing" width="1200" height="550"/>
 
 ## Summary
 

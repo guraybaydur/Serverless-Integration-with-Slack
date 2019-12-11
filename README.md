@@ -1,4 +1,4 @@
-# How to read messages through Slack with Functions
+# How to read Slack messages with Functions
 
 ## Introduction
 In a developer’s work environment where people share their ideas and emotions constantly, good communication among team members plays a key role. Often times they talk to each other face to face but sometimes they are not able to communicate with each other in person because of the distance. Therefore, they use messaging applications such as Slack in order to keep in touch. 

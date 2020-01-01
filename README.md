@@ -9,7 +9,7 @@ The main purpose of this tutorial is to show developers how they can easily rece
 
 ## Flow
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.52.29.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.52.29.png" alt="drawing" width="1200" height="550"/>
 
 ## Prerequisites
 

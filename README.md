@@ -25,17 +25,17 @@ The main purpose of this tutorial is to show developers how they can easily rece
 - Go to api.slack.com to login to your account.
 - From top right corner, Click Go To Slack.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.28.52.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.28.52.png" alt="drawing" width="1200" height="550"/>
 
 - You will be directed to Sign in to your workspace page. Enter your workspace url here and hit Enter.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.29.03.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.29.03.png" alt="drawing" width="1200" height="550"/>
 
 - Login to your account.
 - Go back to api.slack.com again.
 - From top right corner, Click Your Apps.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.31.00.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.31.00.png" alt="drawing" width="1200" height="550"/>
 
 - Click Create New App.
 - Give your App a name by filling App Name Section.
@@ -43,7 +43,7 @@ The main purpose of this tutorial is to show developers how they can easily rece
 - Go to Bot Users tab from left side bar.
 - Click Add Bot User.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.32.01.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.32.01.png" alt="drawing" width="1200" height="550"/>
 
 - This is the place where you give your bot a name.
 - Turn On Always Show My Bot as Online Button.
@@ -53,19 +53,19 @@ The main purpose of this tutorial is to show developers how they can easily rece
 ## 2.  IBM Cloud Functions Action Creation
 - Open a new tab in your browser and go to cloud.ibm.com/functions
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.33.29.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.33.29.png" alt="drawing" width="1200" height="550"/>
 
 - Click Login from top right button.
 - Sign in to your IBM Cloud Account.
 - You must be redirected to cloud.ibm.com/functions page. If not directed, go there by entering it to your browser.
 - Click on Start Creating. 
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.36.15.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.36.15.png" alt="drawing" width="1200" height="550"/>
 
 - Choose Create Action.
 - Fill Action Name with a name of your choice.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.36.36.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.36.36.png" alt="drawing" width="1200" height="550"/>
 
 - Leave everything else as it is and Click Create.
 - You will see the code part of your action. 
@@ -91,7 +91,7 @@ if (payload.event && payload.event.type === "message" && payload.event.subtype !
 - Go to Endpoints from left side bar.
 - Click on Enable as Web Action. Click Save. You will see a url generated for you. Copy it to your favorite editor.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.37.45.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.37.45.png" alt="drawing" width="1200" height="550"/>
 
 ## 4. Subscribe Action to Slack
 - Go back to api.slack.com -> your apps and choose the app you just created.
@@ -101,7 +101,7 @@ if (payload.event && payload.event.type === "message" && payload.event.subtype !
 - Go down and Click on Subscribe to bot events.
 - Click on Add Bot User Event.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.39.46.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2015.39.46.png" alt="drawing" width="1200" height="550"/>
 
 - Search for message.im. This will subscribe the bot to listen to direct messages coming to itself.
 - Go to Subscribe to workspace events and also add message.im here.
@@ -116,7 +116,7 @@ ibmcloud target --cf
 ``` 
 - Go to your Slack Application and send direct message to your bot.
 
-<img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.18.png" alt="drawing" width="1200" height="550"/>
+<img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.18.png" alt="drawing" width="1200" height="550"/>
 
 - Go back to your terminal and enter the command below
 ```
@@ -127,11 +127,11 @@ ibmcloud fn activation list.
 ```
 ibmcloud fn activation get <your copied  activation id>
 ``` 
- <img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.43.png" alt="drawing" width="1200" height="550"/>
+ <img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.43.png" alt="drawing" width="1200" height="550"/>
  
 - You will see the text in the result section of the response.
 
- <img src="https://github.ibm.com/Guray-Baydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.50.png" alt="drawing" width="1200" height="550"/>
+ <img src="https://github.com/guraybaydur/Serverless-Integration-with-Slack/blob/master/Screenshots/Screen%20Shot%202019-12-09%20at%2016.13.50.png" alt="drawing" width="1200" height="550"/>
 
 ## Summary
 
